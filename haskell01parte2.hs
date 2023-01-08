@@ -25,6 +25,7 @@ isLongWord s = length s > 10
 onlyLongWords :: [String] -> [String]
 onlyLongWords x = filter isLongWord x
 
+
 isEven :: Int -> Bool
 isEven x = mod x 2 == 0
 
@@ -32,7 +33,11 @@ onlyEven :: [Int] -> [Int]
 onlyEven x = filter isEven x
 
 
+between60and80 :: Int -> Bool
+between60and80 x = (x > 60) && (x < 80)
+
 onlyBetween60and80
+onlyBetween60and80 x = filter between60and80 x
 
 
 space :: Char -> Bool
@@ -43,7 +48,7 @@ countSpaces x = length (filter space x)
 
 
 circleArea :: Float -> Float
-circleArea x = pi*(x²)
+circleArea x = pi*x*x
 
 calcAreas :: [Float] -> [Float]
 clacAreas x = map circleArea x
