@@ -6,13 +6,7 @@ itemize x = map htmlItem x
 
 
 isVowel :: Char -> Bool
-isVolwel x 
-   | x == 'a'  = 1
-   | x == 'e'  = 1
-   | x == 'i'  = 1
-   | x == 'o'  = 1
-   | x == 'u'  = 1
-   | otherwise = 0
+isVowel x = elem x "AEIOUaeiou"
    
 onlyVowels :: String -> String
 onlyVowels x = filter isVowel x
