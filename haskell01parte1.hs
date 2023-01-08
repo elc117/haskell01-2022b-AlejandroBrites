@@ -5,7 +5,7 @@ circleArea :: Float -> Float
 circleArea x = pi*(x²)
 
 age :: Int -> Int -> Int
-age x y = y-x
+age x y = y - x
 
 isElderly :: Int -> Bool
 isElderly x = x > 65
