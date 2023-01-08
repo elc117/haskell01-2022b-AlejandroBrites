@@ -32,4 +32,4 @@ hasEqHeads :: [Int] -> [Int] -> Bool
 hasEqHeads list1 list2 = (head list1) == (head list2)
 
 isVowel2 :: Char -> Bool
-isVowel2 x = elem x ["AEIOUaeiou"]
+isVowel2 x = elem x "AEIOUaeiou"
