@@ -1,8 +1,9 @@
+-- Atividade 1
 sumSquares :: Int -> Int -> Int
-sumSquares x y = (x²) + (y²)
+sumSquares x y = (x*x) + (y*y)
 
 circleArea :: Float -> Float
-circleArea x = pi*(x²)
+circleArea x = pi*x*x
 
 age :: Int -> Int -> Int
 age x y = y - x
@@ -21,12 +22,12 @@ isVerb x = last x == 'r'
 
 isVowel :: Char -> Bool
 isVolwel x 
-   | x == 'a'  = 1
-   | x == 'e'  = 1
-   | x == 'i'  = 1
-   | x == 'o'  = 1
-   | x == 'u'  = 1
-   | otherwise = 0
+   | x == 'a'  = "true" 
+   | x == 'e'  = "true" 
+   | x == 'i'  = "true" 
+   | x == 'o'  = "true" 
+   | x == 'u'  = "true" 
+   | otherwise = "false"
 
 hasEqHeads :: [Int] -> [Int] -> Bool
 hasEqHeads list1 list2 = (head list1) == (head list2)
