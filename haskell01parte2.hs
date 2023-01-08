@@ -6,8 +6,8 @@ itemize :: [String] -> [String]
 itemize x = map htmlItem x 
 
 -- Atividade 2
-isVowel :: Char -> Bool
-isVowel x = elem x "AEIOUaeiou"
+isVowel2 :: Char -> Bool
+isVowel2 x = elem x "AEIOUaeiou"
    
 onlyVowels :: String -> String
 onlyVowels x = filter isVowel x
