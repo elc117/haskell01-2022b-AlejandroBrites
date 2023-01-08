@@ -20,7 +20,7 @@ onlyElderly :: [Int] -> [Int]
 onlyElderly x = filter isElderly x
 
 -- Atividade 4
--- Não houve atividade 4
+-- Não teve atividade 4
 
 -- Atividade 5
 isLongWord :: String -> Bool
