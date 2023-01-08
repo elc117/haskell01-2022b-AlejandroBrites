@@ -40,7 +40,7 @@ onlyEven x = filter isEven x
 between60and80 :: Int -> Bool
 between60and80 x = (x > 60) && (x < 80)
 
-onlyBetween60and80
+onlyBetween60and80 :: [Int] -> [Int]
 onlyBetween60and80 x = filter between60and80 x
 
 -- Atividade 8
