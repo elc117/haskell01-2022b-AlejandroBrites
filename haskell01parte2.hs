@@ -20,37 +20,34 @@ onlyElderly :: [Int] -> [Int]
 onlyElderly x = filter isElderly x
 
 -- Atividade 4
--- Não teve atividade 4
-
--- Atividade 5
 isLongWord :: String -> Bool
 isLongWord s = length s > 10
 
 onlyLongWords :: [String] -> [String]
 onlyLongWords x = filter isLongWord x
 
--- Atividade 6
+-- Atividade 5
 isEven :: Int -> Bool
 isEven x = mod x 2 == 0
 
 onlyEven :: [Int] -> [Int]
 onlyEven x = filter isEven x
 
--- Atividade 7
+-- Atividade 6
 between60and80 :: Int -> Bool
 between60and80 x = (x > 60) && (x < 80)
 
 onlyBetween60and80 :: [Int] -> [Int]
 onlyBetween60and80 x = filter between60and80 x
 
--- Atividade 8
+-- Atividade 7
 space :: Char -> Bool
 space c = c == ' '
 
 countSpaces :: String -> Int
 countSpaces x = length (filter space x)
 
--- Atividade 9
+-- Atividade 8
 circleArea :: Float -> Float
 circleArea x = pi*x*x
 
