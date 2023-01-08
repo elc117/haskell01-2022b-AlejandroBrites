@@ -19,17 +19,14 @@ htmlItem :: String -> String
 htmlItem x = "<li>" ++ x ++ "</li>"
 
 -- Atividade 6
--- Não teve atividade 6
-
--- Atividade 7
 startsWithA :: String -> Bool
 startsWithA x = head x == 'A'
 
--- Atividade 8
+-- Atividade 7
 isVerb :: String -> Bool
 isVerb x = last x == 'r'
 
--- Atividade 9
+-- Atividade 8
 isVowel :: Char -> Bool
 isVolwel x 
    | x == 'a'  = "true" 
@@ -39,10 +36,10 @@ isVolwel x
    | x == 'u'  = "true" 
    | otherwise = "false"
 
--- Atividade 10
+-- Atividade 9
 hasEqHeads :: [Int] -> [Int] -> Bool
 hasEqHeads list1 list2 = (head list1) == (head list2)
 
--- Atividade 11
+-- Atividade 10
 isVowel2 :: Char -> Bool
 isVowel2 x = elem x "AEIOUaeiou"
