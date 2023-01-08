@@ -10,7 +10,7 @@ isVowel2 :: Char -> Bool
 isVowel2 x = elem x "AEIOUaeiou"
    
 onlyVowels :: String -> String
-onlyVowels x = filter isVowel x
+onlyVowels x = filter isVowel2 x
 
 -- Atividade 3
 isElderly :: Int -> Bool
