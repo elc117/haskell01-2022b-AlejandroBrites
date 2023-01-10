@@ -29,12 +29,12 @@ isVerb x = last x == 'r'
 -- Atividade 8
 isVowel :: Char -> Bool
 isVolwel x 
-   | x == 'a'  = "true" 
-   | x == 'e'  = "true" 
-   | x == 'i'  = "true" 
-   | x == 'o'  = "true" 
-   | x == 'u'  = "true" 
-   | otherwise = "false"
+   | x == 'a'  = True 
+   | x == 'e'  = True 
+   | x == 'i'  = True 
+   | x == 'o'  = True 
+   | x == 'u'  = True 
+   | otherwise = False
 
 -- Atividade 9
 hasEqHeads :: [Int] -> [Int] -> Bool
