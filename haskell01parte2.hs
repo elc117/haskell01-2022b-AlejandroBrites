@@ -52,4 +52,4 @@ circleArea :: Float -> Float
 circleArea x = pi*x*x
 
 calcAreas :: [Float] -> [Float]
-clacAreas x = map circleArea x
+calcAreas x = map circleArea x
